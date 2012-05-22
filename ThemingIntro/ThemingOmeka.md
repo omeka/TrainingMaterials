@@ -29,8 +29,13 @@ Most important files are usually
 
 
 ## From Scratch Theme
+_Explain how to use From Scratch to jump-start your theme development_
 
 * Contains files and folders for collections, items, header and footer, css, and more to get you up and theming quickly.
+
+### Activities
+
+* Download From Scratch and look through style.css
 
 ## Override the items/show page
 
@@ -38,7 +43,7 @@ _Demonstrate the typical functions, CSS classes, and structures used in a show p
 
 [Functions](http://omeka.org/codex/Functions)
 
-* __() : translates text. best not to change the text, as translations will break!
+* __() : translates text. Best not to change the text, as translations will break!
 * head() : data passed to the header.php file for display
 * get_current_item() : makes sure there is an item for item() to work on
 * item() : displays element set data
@@ -80,14 +85,13 @@ _Explain Omeka's looping of records (similar to WordPress')_
 
 _Demonstrate the typical functions, CSS classes, and structures used in header and footer_
 
-Copy 'common' folder into example-theme
-
 * settings() : get settings set in the site configuration
 * queue_css() : use before display_css() to queue CSS files to be added
 * queue_js() : use before display_js() to queue javascript files to be added
 
 ### Activities
 
+* Copy 'common' folder into example-theme
 * Add in new stylesheet
 * Add in a new javascript file
 

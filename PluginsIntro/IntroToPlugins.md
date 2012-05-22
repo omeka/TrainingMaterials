@@ -12,7 +12,7 @@ Install HookFilterExample
 ### Activities
 
 * Change the text of output based on information in the item
-* Add a hook onto the collections show page
+* Use the hook onto the collections show page
 
 
 ## Plugin Directory Structure
@@ -63,7 +63,21 @@ application/libraries/Zend/Controller/Action.php
 * deleteAction : delete a record
 
 
+## Navigating Omeka's Codebase
+_Explain likely places to look if you need to know more about how Omeka's functions, classes, and methods work_
+
+Underscores in class names usually mean a directory path. So Omeka_Db_Table is found in application/libraries/Omeka/Db/Table.php. 
+
+* application/helpers folder
+	* if a function with underscores, look around in files here
+* application/models folder
+	* look here for more about core types: Item, Collection, User, plus *Table classes
+* application/libraries/Omeka folder
+	* look here for database and record classes
+* application/libraries/Zend folder
+	* we build off of Zend, so look here when Omeka classes extend off of Zend_* classes
+
 ## Changes coming in Omeka 2.0 (Fall 2012)
 
-See [Updating Plugins For Omeka 2.0](http://omeka.org/codex/Updating_Plugins_For_2.0)
+* See [Updating Plugins For Omeka 2.0](http://omeka.org/codex/Updating_Plugins_For_2.0)
 
