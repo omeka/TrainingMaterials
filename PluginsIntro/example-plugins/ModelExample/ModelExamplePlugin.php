@@ -43,6 +43,8 @@ class ModelExamplePlugin extends Omeka_Plugin_Abstract
         $db->query($sql);
 
         //set up some fake data to work with
+        //this is the kind of work that is usually done in a Controller when processing a form
+        
         $collection = new Collection();
         $collection->name = "Fake Collection";
         $collection->owner_id = 1;
