@@ -3,7 +3,7 @@ class ModelExamplePlugin extends Omeka_Plugin_Abstract
 {
     protected $_hooks = array(
         'public_append_to_collections_show',
-           'install',
+        'install',
         'uninstall'
     );
 
