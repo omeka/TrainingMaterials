@@ -144,6 +144,48 @@ _Explain how to look through plugin files and override their views_
 * Install SimplePages and hack the public/show page to alter the title
 
 
+## Using head() function to customize different pages
+
+_Contributed by Michael Tedeschi, Interactive Mechanics_
+
+On your content pages (index.php, show.php, etc) at the top of your document you can include the following code to change the `<body>` tag and `<head>` information:
+
+
+    <?php head(array(
+        'title' => ‘My Page Title’,
+        'bodyid' => 'MyPageID',
+        'bodyclass'=>'className01 classname02'
+      )); 
+    ?>
+
+
+'title' controls the `<title>` tag, allowing for a custom name for the page
+'bodyid' and 'bodyclass' add custom classes to the `<body>` tag, allowing for custom control of individual page templates
+ 
+## Adding custom styling with head() by page/exhibit slug
+
+_Contributed by Michael Tedeschi, Interactive Mechanics_
+
+
+    <?php head(array(
+        'title' => html_escape(exhibit('title') . ' : '. exhibit_page('title')),
+        'bodyid'=>'exhibit',
+        'bodyclass' => html_escape(exhibit('slug') . ' show')
+    )); 
+    ?>
+
+
+Omeka has functions to pull the current page information—for this example, we’re on an exhibit page. For the title, we’re using exhibit(‘title’) to pull the human-readable name of the current exhibit. exhibit_page(‘title’) grabs the name of the current page in the exhibit. exhibit(‘slug’) grabs the machine readable name of the exhibit—for example, “This Omeka Exhibit” might have a slug of “this-omeka-exhibit” made safe for web.
+
+
+## Customizing Plugin Views
+
+_Contributed by Michael Tedeschi, Interactive Mechanics_
+
+Each plugin has their own set of “Views,” or templates controlling layout and appearance for the theme. These files can be included in your theme to overwrite styling and layout.
+[omeka-base-directory] > plugins > [plugin-name] > Views > Public >
+Inside of the Public folder is the folder(s) containing all page views. In your theme directory, create a folder for the slug of the plugin (e.g. “Simple Pages” would be “simple-pages”, “Exhibit Builder” would be “exhibit-builder”) and copy the folders and files in the Public directory into this new directory.
+
 ## Changes coming in Omeka 2.0 (Fall 2012)
 
 * See [Updating Plugins For Omeka 2.0](http://omeka.org/codex/Updating_Plugins_For_2.0)
