@@ -91,7 +91,6 @@ _Demonstrate the typical functions, CSS classes, and structures used in header a
 
 ### Activities
 
-* Copy 'common' folder into example-theme
 * Add in new stylesheet
 * Add in a new javascript file
 

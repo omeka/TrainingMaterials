@@ -32,6 +32,11 @@ _Compare the strengths and weaknesses of some web publishing systems_
 ## Omeka Example Sites
 _Examples of what can be done with Omeka_
 
+* [Grateful Dead Archive Online](http://www.gdao.org)
+	* Heavily custom-themed
+	* Exhibits
+	* Solr-search plugin
+	* Contributions
 * [Florida Memory](http://www.floridamemory.com)
 	* Exhibits and Collections
 	* Heavily custom-themed
