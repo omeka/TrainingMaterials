@@ -9,7 +9,7 @@ The markdown (.md) files are the canonical files, meaning that the word processo
 
 Additional resources -- screenshots, handouts, example files -- are also to be found in the subfolders for you to pick and choose from in creating your class or workshop. The idea here is to avoid duplicating the time and effort of creating supplemental resources for your presentation.
 
-## Contributing to the Training Mateerials
+## Contributing to the Training Materials
 
 You can contribute materials you have created via one of two basic paths. The first way is to simply let the Omeka team know about them by tweeting links (include @omeka in the tweet!) or posting to the forums with links. You can also use GitHub's issues system to post thoughts or links. We'll give them a look and fold them in where it seems appropriate.
 
