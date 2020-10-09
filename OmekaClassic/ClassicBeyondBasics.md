@@ -8,15 +8,11 @@ Thinking through your site:
 
 -   Item-level information vs. exhibit info
 
--   Even if your focus is building exhibits, people will end up clicking
-    > through to the item. There should be *something* there for them.
+-   Even if your focus is building exhibits, people will end up clicking through to the item. There should be *something* there for them.
 
-    -   Example: how we thought about items on HNM in their own desc vs
-        > the exhibit info.
+    -   Example: how we thought about items on HNM in their own desc vs the exhibit info.
 
--   What information do you want to capture and what elements exist that
-    > can help you do that? Is there something you might need a plugin
-    > for (like geolocation)?
+-   What information do you want to capture and what elements exist that can help you do that? Is there something you might need a plugin for (like geolocation)?
 
 -   Thing about organization
 
@@ -26,22 +22,17 @@ Thinking through your site:
 
     -   Exhibits
 
-    -   Information architecture - what are you including on the
-        > navigation and why. What are you omitting and why?
+    -   Information architecture - what are you including on the navigation and why. What are you omitting and why?
 
-    -   Page layout - different themes put the images at the top or the
-        > bottom. What do you want to forefront?
+    -   Page layout - different themes put the images at the top or the bottom. What do you want to forefront?
 
 Things that are part of the Core and will improve your workflow
 
--   Increase the number of results on the browse page of your admin
-    > side:
+-   Increase the number of results on the browse page of your admin side:
 
-    -   Appearance - Settings: change the results per page on the admin
-        > side.
+    -   Appearance - Settings: change the results per page on the admin side.
 
-    -   Gives you more to work with, less clicking through when browsing
-        > items, exhibits.
+    -   Gives you more to work with, less clicking through when browsing items, exhibits.
 
 -   Manage your Element Sets
 
@@ -51,27 +42,20 @@ Things that are part of the Core and will improve your workflow
 
     -   Comment
 
-        -   Finally worked out how you're using Coverage? Want to
-            > remember your decision in 3 months? Don't write it down on
-            > a sticky note, put it in your install!
+       -   Finally worked out how you're using Coverage? Want to remember your decision in 3 months? Don't write it down on a sticky note, put it in your install!
 
-    -   This is helpful for notes to self, but also for collaborative
-        > Omeka sites, so that everyone knows what format of date to
-        > use, etc.
+    -   This is helpful for notes to self, but also for collaborative Omeka sites, so that everyone knows what format of date to use, etc.
 
-    -   Might also be helpful in teaching or volunteer situations, to
-        > provide guidance.
+    -   Might also be helpful in teaching or volunteer situations, to provide guidance.
 
 Plugins for Controlled Vocabulary:
 
 First: what *is* a controlled vocabulary and why might you want to use
 one?
 
--   Getty and LoC suggest link up a field or fields with the vocabs from
-    > the Getty and LoC
+-   Getty and LoC suggest link up a field or fields with the vocabs from the Getty and LoC
 
-    -   you do need to know how their terminology works for these to be
-        > useful,
+    -   you do need to know how their terminology works for these to be useful,
 
     -   But it's handy if you wanted to (for example) use LoC subject
         > classifications in Subject or Getty Place Name thesaurus for
@@ -80,16 +64,11 @@ one?
 -   SimpleVocab
 
     -   Pick an element, create a dropdown list
-
     -   You control the vocabulary
-
     -   Useful for small sets
 
 -   Search by Metadata
-
-    -   Makes the text in elements searchable BUT they must be an exact
-        > match
-
+    -   Makes the text in elements searchable BUT they must be an exact match
     -   Use with SimpleVocab to ensure consistency
 
 Collecting from the Community
