@@ -14,7 +14,7 @@ For many projects, the answer of which Omeka to use may simply be which interfac
 
 Omeka Classic creates a publicly available web presence from the moment you create the installation, which you can build out and customize from there. Every Omeka Classic site initially includes pages for browsing Items and Collections as well as a home page. You can use these items in as many Exhibits as you or your users want to build. 
 
-Omeka S allows you to create linked data, using existing resources (items) to describe new resources. This functionality can be very helpful if you have multiple datasets which would benefit from relationships between the items (for example letter writers and their letters). Omeka S sites must be built from scratch and so may take more planning than an Omeka Classic site. Omeka S can host many sites building from a shared pool of resources. Visit Learn More about each of [Omeka](#https://omeka.org/)
+Omeka S allows you to create linked data, using existing resources (items) to describe new resources. This functionality can be very helpful if you have multiple datasets which would benefit from relationships between the items (for example letter writers and their letters). Omeka S sites must be built from scratch and so may take more planning than an Omeka Classic site. Omeka S can host many sites building from a shared pool of resources. Visit Learn More about each of [Omeka](https://omeka.org/)
 
 You may also want to compare the technical requirements for S and Classic, depending on your hosting situation. 
 
